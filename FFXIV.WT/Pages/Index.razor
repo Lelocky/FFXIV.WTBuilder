@@ -1,0 +1,21 @@
+﻿@page "/"
+@inject WTService WTService
+@inject NavigationManager NavigationManager
+
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1>Quick and easy!</h1>
+        <p class="lead text-muted">Make a party below and share it with your friends.</p>
+        <p>
+            <button class="btn btn-primary my-2" @onclick="CreateParty">Create a party</button>
+        </p>
+    </div>
+</section>
+
+@code{ 
+    public void CreateParty()
+    {
+        var partyKey = WTService.AddParty();
+        NavigationManager.NavigateTo($"/Party/{partyKey}");
+    }
+}

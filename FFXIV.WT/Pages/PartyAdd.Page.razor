@@ -1,0 +1,98 @@
+﻿@page "/Party/add/{Key:guid}"
+@inject WTService WTService
+@inject NavigationManager NavigationManager
+<div class="content">
+    <div class="container">
+        @if (Party != null)
+        {
+            <div class="row duty-list">
+                <div class="col-12">
+                    <h4>Dungeons</h4>
+                </div>
+                <div class="col-12">
+                    <div class="list-group">
+                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 1))
+                        {
+                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="row duty-list">
+                <div class="col-12">
+                    <h4>Raids</h4>
+                </div>
+                <div class="col-12">
+                    <div class="list-group">
+                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 2))
+                        {
+                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="row duty-list">
+                <div class="col-12">
+                    <h4>Trails</h4>
+                </div>
+                <div class="col-12">
+                    <div class="list-group">
+                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 3))
+                        {
+                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="row duty-list">
+                <div class="col-12">
+                    <h4>Others</h4>
+                </div>
+                <div class="col-12">
+                    <div class="list-group">
+                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 4))
+                        {
+                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" @onclick="Done">Done</button>
+        }
+    </div>
+</div>
+
+@code
+{
+    [Parameter]
+    public Guid Key { get; set; }
+    private Party Party { get; set; }
+    private Dictionary<Guid, Duty> AllDuties { get; set; }
+
+    protected override void OnInitialized()
+    {
+        if (Key != Guid.Empty)
+        {
+            Party = WTService.GetParty(Key);
+            AllDuties = new Dictionary<Guid, Duty>(WTService.GetDuties());
+            StateHasChanged();
+        }
+    }
+
+    public void Add(Guid dutyKey)
+    {
+        WTService.AddDutyToParty(Key, dutyKey);
+        AllDuties.Remove(dutyKey);
+        StateHasChanged();
+    }
+
+
+    public void Done()
+    {
+        NavigationManager.NavigateTo($"/Party/{Key}");
+    }
+}
