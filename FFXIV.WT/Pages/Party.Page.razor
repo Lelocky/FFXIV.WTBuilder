@@ -53,9 +53,9 @@
                     {
                         <div class="list-group">
 
-                            @foreach (var selectedDuty in Party.SelectedDuties)
+                            @foreach (var selectedDuty in Party.SelectedDuties.OrderByDescending(x => x.Value))
                             {
-                                <button type="button" @onclick="(() => Remove(selectedDuty))" class="list-group-item list-group-item-action">@AllDuties[selectedDuty].DutyName</button>
+                                <button type="button" @onclick="(() => Remove(selectedDuty.Key))" class="list-group-item list-group-item-action">@AllDuties[selectedDuty.Key].DutyName <span class="badge badge-primary">@selectedDuty.Value</span></button>
                             }
                         </div>
                     }

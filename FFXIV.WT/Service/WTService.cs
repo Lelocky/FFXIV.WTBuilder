@@ -19,7 +19,7 @@ namespace FFXIV.WT.Service
         public Guid AddParty()
         {
             Guid partyKey = Guid.NewGuid();
-            Parties.Add(partyKey, new Party { SelectedDuties = new List<Guid>(), RoomKey = partyKey });
+            Parties.Add(partyKey, new Party { SelectedDuties = new Dictionary<Guid, int>(), RoomKey = partyKey });
             return partyKey;
         }
 
@@ -42,9 +42,13 @@ namespace FFXIV.WT.Service
 
             var party = Parties[partyKey];
 
-            if (!party.SelectedDuties.Contains(dutyKey))
+            if (!party.SelectedDuties.ContainsKey(dutyKey))
             {
-                party.SelectedDuties.Add(dutyKey);
+                party.SelectedDuties.Add(dutyKey, 1);
+            }
+            else
+            {
+                party.SelectedDuties[dutyKey]++;
             }
 
             return true;
@@ -64,7 +68,7 @@ namespace FFXIV.WT.Service
 
             var party = Parties[partyKey];
 
-            if (party.SelectedDuties.Contains(dutyKey))
+            if (party.SelectedDuties.ContainsKey(dutyKey))
             {
                 party.SelectedDuties.Remove(dutyKey);
             }

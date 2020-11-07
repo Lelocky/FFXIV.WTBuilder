@@ -7,7 +7,7 @@ namespace FFXIV.WT.Model
 {
     public class Party
     {
-        public List<Guid> SelectedDuties { get; set; }
+        public Dictionary<Guid, int> SelectedDuties { get; set; }
         public Guid RoomKey { get; set; }
     }
 }
