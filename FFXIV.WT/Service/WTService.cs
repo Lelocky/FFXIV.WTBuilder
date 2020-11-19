@@ -10,6 +10,7 @@ namespace FFXIV.WT.Service
     {
         private Dictionary<Guid, Duty> Duties;
         private Dictionary<Guid, Party> Parties;
+        public event Action OnChange;
         public WTService()
         {
             PopulateDuties();
@@ -51,6 +52,7 @@ namespace FFXIV.WT.Service
                 party.SelectedDuties[dutyKey]++;
             }
 
+            NotifyStateChanged();
             return true;
         }
 
@@ -204,5 +206,7 @@ namespace FFXIV.WT.Service
         {
             return Duties;
         }
+
+        private void NotifyStateChanged() => OnChange?.Invoke();
     }
 }
