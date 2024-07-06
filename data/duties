@@ -1,0 +1,530 @@
+[
+    {
+        "Name": "Dungeons (Lv. 1-49)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 50)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 51-59)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 60)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 61-69)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 70)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 71-79)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 80)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 81-89)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 90)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 91-99)",
+        "Category": 1
+    },
+    {
+        "Name": "Dungeons (Lv. 100)",
+        "Category": 1
+    },
+    {
+        "Name": "The Minstrel's Ballad: Ultima's Bane",
+        "Category": 3
+    },
+    {
+        "Name": "The Howling Eye (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Navel (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Bowl of Embers (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Thornmarch (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Whorleater (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Striking Tree (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Akh Afah Amphitheatre (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Urth's Fount",
+        "Category": 3
+    },
+    {
+        "Name": "The Labyrinth of the Ancients",
+        "Category": 2
+    },
+    {
+        "Name": "Syrcus Tower",
+        "Category": 2
+    },
+    {
+        "Name": "The World of Darkness",
+        "Category": 2
+    },
+    {
+        "Name": "The Void Ark",
+        "Category": 2
+    },
+    {
+        "Name": "The Weeping City of Mhach",
+        "Category": 2
+    },
+    {
+        "Name": "Dun Scaith",
+        "Category": 2
+    },
+    {
+        "Name": "The Royal City of Rabanastre",
+        "Category": 2
+    },
+    {
+        "Name": "The Ridorana Lighthouse",
+        "Category": 2
+    },
+    {
+        "Name": "The Orbonne Monastery",
+        "Category": 2
+    },
+    {
+        "Name": "The Copied Factory",
+        "Category": 2
+    },
+    {
+        "Name": "The Puppets' Bunker",
+        "Category": 2
+    },
+    {
+        "Name": "The Tower at Paradigm's",
+        "Category": 2
+    },
+    {
+        "Name": "Aglaia",
+        "Category": 2
+    },
+    {
+        "Name": "Euphrosyne",
+        "Category": 2
+    },
+    {
+        "Name": "Thaleia",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Fist of the Father",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Cuff of the Father",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Arm of the Father",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Burden of the Father",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Fist of the Son",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Cuff of the Son",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Arm of the Son",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Burden of the Son",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Eyes of the Creator",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Breath of the Creator",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Heart of the Creator",
+        "Category": 2
+    },
+    {
+        "Name": "Alexander - The Soul of the Creator",
+        "Category": 2
+    },
+    {
+        "Name": "Deltascape V1.0",
+        "Category": 2
+    },
+    {
+        "Name": "Deltascape V2.0",
+        "Category": 2
+    },
+    {
+        "Name": "Deltascape V3.0",
+        "Category": 2
+    },
+    {
+        "Name": "Deltascape V4.0",
+        "Category": 2
+    },
+    {
+        "Name": "Sigmascape V1.0",
+        "Category": 2
+    },
+    {
+        "Name": "Sigmascape V2.0",
+        "Category": 2
+    },
+    {
+        "Name": "Sigmascape V3.0",
+        "Category": 2
+    },
+    {
+        "Name": "Sigmascape V4.0",
+        "Category": 2
+    },
+    {
+        "Name": "Alphascape V1.0",
+        "Category": 2
+    },
+    {
+        "Name": "Alphascape V2.0",
+        "Category": 2
+    },
+    {
+        "Name": "Alphascape V3.0",
+        "Category": 2
+    },
+    {
+        "Name": "Alphascape V4.0",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Gate: Resurrection",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Gate Descent",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Gate Inundation",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Gate Sepulture",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Verse Fulmination",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Verse Furor",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Verse Iconoclasm",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Verse Refulgence",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Promise Umbra",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Promise Litany",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Promise Anamorphosis",
+        "Category": 2
+    },
+    {
+        "Name": "Eden's Promise Eternity",
+        "Category": 2
+    },
+    {
+        "Name": "Asphodelos The First Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Asphodelos The Second Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Asphodelos The Third Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Asphodelos The Fourth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Abyssos The Fifth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Abyssos The Sixth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Abyssos The Seventh Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Abyssos The Eighth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Anabaseios The Ninth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Anabaseios The Tenth Circle",
+        "Category": 2
+    },
+    {
+        "Name": "Anabaseios The Eleventh",
+        "Category": 2
+    },
+    {
+        "Name": "Anabaseios The Twelfth",
+        "Category": 2
+    },
+    {
+        "Name": "The Binding Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Name": "The Binding Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Name": "The Binding Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Name": "The Binding Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Name": "The Binding Coil of Bahamut - Turn 5",
+        "Category": 3
+    },
+    {
+        "Name": "The Second Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Name": "The Second Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Name": "The Second Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Name": "The Second Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Name": "The Final Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Name": "The Final Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Name": "The Final Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Name": "The Final Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Name": "The Limitless Blue (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Thok ast Thok (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad Thordan's Reign",
+        "Category": 3
+    },
+    {
+        "Name": "Containment Bay S1T7 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad Nidhogg's Rage",
+        "Category": 3
+    },
+    {
+        "Name": "Containment Bay P1T6 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Containment Bay Z1T9 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Pool of Tribute (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Emanation (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Jade Stoa (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad Tsukuyomi's Pain",
+        "Category": 3
+    },
+    {
+        "Name": "Hells' Kier (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Great Hunt (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Wreath of Snakes (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Dancing Plague (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Crown of the Immaculate (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad Hades's Elegy",
+        "Category": 3
+    },
+    {
+        "Name": "Cinder Drift (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Memoria Misera (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Seat of Sacrifice (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Castrum Marinum (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Cloud Deck (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad- Zodiark's Fall",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad- Hydaelyn's Call",
+        "Category": 3
+    },
+    {
+        "Name": "The Minstrel's Ballad: Endsinger's Aria",
+        "Category": 3
+    },
+    {
+        "Name": "Storm's Crown (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Mount Ordeals (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Voidcast Dais (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "The Abyssal Fracture (Extreme)",
+        "Category": 3
+    },
+    {
+        "Name": "Treasure Hunt",
+        "Category": 4
+    },
+    {
+        "Name": "Palace of the Dead",
+        "Category": 4
+    },
+    {
+        "Name": "Frontline",
+        "Category": 4
+    },
+    {
+        "Name": "Astragalos",
+        "Category": 4
+    },
+    {
+        "Name": "Hidden Gorge",
+        "Category": 4
+    },
+    {
+        "Name": "Crystalline Conflict",
+        "Category": 4
+    }
+]
