@@ -2,15 +2,15 @@
 @inject WTService WTService
 @inject NavigationManager NavigationManager
 
-<section class="jumbotron text-center">
-    <div class="container">
-        <h1>Quick and easy!</h1>
-        <p class="lead text-muted">Make a party below and share it with your friends.</p>
-        <p>
-            <button class="btn btn-primary my-2" @onclick="CreateParty">Create a party</button>
-        </p>
+<div class="container py-4">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">It's time for Wondrous Tails!</h1>
+            <p class="col-md-8 fs-4">Tired of asking people what they need to run? Create a party, share it with your friends, and let them add duties to your list.</p>
+            <button class="btn btn-primary btn-lg" type="button" @onclick="CreateParty"><i class="bi bi-plus-circle"></i> Create a party</button>
+        </div>
     </div>
-</section>
+</div>
 
 @code{ 
     public void CreateParty()

@@ -4,71 +4,85 @@
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JsRuntime
 @implements IDisposable
-<div class="content">
-    <div class="container">
-        <div class="row">
 
-            @if (Key == Guid.Empty)
-            {
-                <button @onclick="CreateParty">Create new Party</button>
+<div class="container">
+    <div class="row">
+        <div class="col-8 text-center">
+            <h2 class="display-6"><i class="bi bi-book"></i> Duties</h2>
 
-            }
-            else
+
+            @if (Party != null)
             {
-                <div class="col-12">
-                    <div class="alert alert-primary" role="alert">
-                        <h4 class="alert-heading">You created a party!</h4>
-                        <p>You can share the link below with your friends. This will allow them to add duties to the list.</p>
-                        <hr />
-                        <p class="mb-0 user-select-all">https://host/party/@Key</p>
+                <div class="row">
+                    <div class="col-12 text-start">
+                        @if (Party.SelectedDuties.Count > 0)
+                        {
+                            <div class="list-group">
+
+                                @foreach (var selectedDuty in Party.SelectedDuties.OrderByDescending(x => x.Value))
+                                {
+                                    <button type="button" @onclick="(() => Remove(selectedDuty.Key))" class="list-group-item list-group-item-action">@AllDuties[selectedDuty.Key].DutyName <span class="badge badge-primary">@selectedDuty.Value</span></button>
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-12 text-center">
+                                <div class="no-duties-container">
+                                    <i class="bi bi-journal"></i>
+                                    <p class="lead">
+                                        There are no duties in this party
+                                    </p>
+
+                                </div>
+                            </div>
+                        }
                     </div>
                 </div>
             }
         </div>
-
-
-        <div class="row">
-
+        <div class="col-4 text-center stick-top">
             @if (Party != null)
             {
-                <div class="col-sm">
-                    <h3>Duty list <span class="badge badge-secondary">@Party.SelectedDuties.Count</span></h3>
+                <h3 class="display-6">Step <i class="bi bi-1-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Party invite</h5>
+                        <p class="card-text">Share the link below with your friends.</p>
+                        <p><small>@GetUrl</small></p>
+                        <button class="btn btn-primary" @onclick="CopyUrlToClipboard"><i class="bi bi-copy"></i> Copy URL</button>
+                    </div>
                 </div>
-                <div class="col-sm">
-                    <button class="btn btn-primary" @onclick="AddDuties">Add Duties</button>
+                <h2><i class="bi bi-arrow-down"></i></h2>
+                <h3 class="display-6">Step <i class="bi bi-2-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Add duties</h5>
+                        <p class="card-text">Open your book and add your duties to this party.</p>
+                        <button class="btn btn-primary" @onclick="AddDuties"><i class="bi bi-journal-plus"></i> Add</button>
+                    </div>
+                </div>
+                <h2><i class="bi bi-arrow-down"></i></h2>
+                <h3 class="display-6">Step <i class="bi bi-3-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Fight!</h5>
+                        <p class="card-text">Boss killed? Click on the duty to remove it from the list.</p>
+                    </div>
                 </div>
             }
             else
             {
-                <div class="col-sm">
-                    <h3>Duty list</h3>
+                <h3 class="display-6">Step <i class="bi bi-1-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Create a party</h5>
+                        <p class="card-text">Can't add duties without a party.</p>
+                        <button class="btn btn-primary" @onclick="CreateParty"><i class="bi bi-plus-circle"></i> Create</button>
+                    </div>
                 </div>
             }
-
         </div>
-        @if (Party != null)
-        {
-            <div class="row">
-                <div class="col-12">
-                    @if (Party.SelectedDuties.Count > 0)
-                    {
-                        <div class="list-group">
-
-                            @foreach (var selectedDuty in Party.SelectedDuties.OrderByDescending(x => x.Value))
-                            {
-                                <button type="button" @onclick="(() => Remove(selectedDuty.Key))" class="list-group-item list-group-item-action">@AllDuties[selectedDuty.Key].DutyName <span class="badge badge-primary">@selectedDuty.Value</span></button>
-                            }
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="col-sm">
-                            <p>None added</p>
-                        </div>
-                    }
-                </div>
-            </div>
-        }
     </div>
 </div>
 
@@ -91,6 +105,13 @@
         }
     }
 
+    private string GetUrl => NavigationManager.Uri;
+
+    public async Task CopyUrlToClipboard()
+    {
+        await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", GetUrl);
+    }
+
     public void CreateParty()
     {
         var partyKey = WTService.AddParty();
@@ -103,7 +124,7 @@
 
     public void AddDuties()
     {
-        NavigationManager.NavigateTo($"/Party/add/{Key}");
+        NavigationManager.NavigateTo($"/Party/{Key}/Add/");
     }
 
     public async Task Remove(Guid dutyKey)
@@ -135,4 +156,6 @@
     {
         await InvokeAsync(() => StateHasChanged());
     }
+
+
 }

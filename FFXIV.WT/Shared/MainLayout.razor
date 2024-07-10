@@ -1,30 +1,14 @@
 ﻿@inherits LayoutComponentBase
 
-<header>
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <strong>WT Builder</strong>
-            </a>
-        </div>
-    </div>
-</header>
-<main role="main">
-    @Body
-</main>
-<footer class="text-muted">
-    <div class="container">
-        <p class="float-right">
-            
-        </p>
-        <p>WT Builder</p>
-        <p>Want the source? <a href="https://github.com/Lelocky/FFXIV.WTBuilder">Check it out on Github</a></p>
-        <p>It's nothing special :D</p>
-    </div>
-</footer>
+<div class="col-lg-8 mx-auto p-4 py-md-5">
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+        <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+            <img class="header-logo" src="images/header-logo.png"/>
+            <span class="fs-4">Wondrous Tails Builder</span>
+        </a>
+    </header>
+
+    <main>
+        @Body
+    </main>
+</div>
