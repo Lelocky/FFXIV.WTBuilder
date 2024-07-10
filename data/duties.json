@@ -1,0 +1,662 @@
+[
+    {
+        "Key": "60cef8ae-6bec-4714-bb34-3b5a483a5c01",
+        "Name": "Dungeons (Lv. 1-49)",
+        "Category": 1
+    },
+    {
+        "Key": "8c76db2d-c632-49f7-89a8-413bae524197",
+        "Name": "Dungeons (Lv. 50)",
+        "Category": 1
+    },
+    {
+        "Key": "21a41ede-4abf-4ba7-a757-820875ba8423",
+        "Name": "Dungeons (Lv. 51-59)",
+        "Category": 1
+    },
+    {
+        "Key": "14a2efb9-3f2c-4e45-9fb1-d03077b8e05c",
+        "Name": "Dungeons (Lv. 60)",
+        "Category": 1
+    },
+    {
+        "Key": "be6346cb-b751-4db9-90df-855cbda848bb",
+        "Name": "Dungeons (Lv. 61-69)",
+        "Category": 1
+    },
+    {
+        "Key": "7e9fb0c3-b080-42fc-80e3-fcd1df2f1b31",
+        "Name": "Dungeons (Lv. 70)",
+        "Category": 1
+    },
+    {
+        "Key": "d19978f0-67eb-49fd-aa60-3a9e45fa28b7",
+        "Name": "Dungeons (Lv. 71-79)",
+        "Category": 1
+    },
+    {
+        "Key": "ac7b18fc-6ec1-474d-af30-ec030e010f5f",
+        "Name": "Dungeons (Lv. 80)",
+        "Category": 1
+    },
+    {
+        "Key": "83284301-5247-4c4a-9009-3f51d7fab39a",
+        "Name": "Dungeons (Lv. 81-89)",
+        "Category": 1
+    },
+    {
+        "Key": "da1ab0d7-49cb-4d60-8e7c-4809979e2027",
+        "Name": "Dungeons (Lv. 90)",
+        "Category": 1
+    },
+    {
+        "Key": "cd9a1c2f-335c-478b-9c0e-62e64eb87123",
+        "Name": "Dungeons (Lv. 91-99)",
+        "Category": 1
+    },
+    {
+        "Key": "063689a8-fb74-4af8-8696-69a31ad79de6",
+        "Name": "Dungeons (Lv. 100)",
+        "Category": 1
+    },
+    {
+        "Key": "1c07f347-314a-4b58-99d6-2fe98398bc09",
+        "Name": "The Minstrel's Ballad: Ultima's Bane",
+        "Category": 3
+    },
+    {
+        "Key": "7098f01b-bc2d-4a6b-a3b7-4a3f4159eb7c",
+        "Name": "The Howling Eye (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "3a73291f-80ef-4d21-99e2-958b3820cbd9",
+        "Name": "The Navel (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "c0c9add9-a014-497d-892d-e49d3d029089",
+        "Name": "The Bowl of Embers (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "6a46d558-f766-4338-9376-0f01effd3e9f",
+        "Name": "Thornmarch (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "46b02211-27de-4d4f-9a99-681f34acae97",
+        "Name": "The Whorleater (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "6f1ad533-3eee-4a57-90d8-67e589158849",
+        "Name": "The Striking Tree (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "52d2102e-fea9-4f28-83aa-f2f0a64660ea",
+        "Name": "The Akh Afah Amphitheatre (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "fedd26b3-3443-490c-8804-1faf935209e5",
+        "Name": "Urth's Fount",
+        "Category": 3
+    },
+    {
+        "Key": "407cee9e-face-4413-a5ff-b829c875ae14",
+        "Name": "The Labyrinth of the Ancients",
+        "Category": 2
+    },
+    {
+        "Key": "ff27a633-2d4a-4e2e-911a-9e1883430f90",
+        "Name": "Syrcus Tower",
+        "Category": 2
+    },
+    {
+        "Key": "5cea356a-8f57-4115-b108-2c9acb6d31e8",
+        "Name": "The World of Darkness",
+        "Category": 2
+    },
+    {
+        "Key": "edf99e04-489a-4d09-b8ea-41389ea5032f",
+        "Name": "The Void Ark",
+        "Category": 2
+    },
+    {
+        "Key": "0343001a-79dd-4ae6-846f-ce8a51c39880",
+        "Name": "The Weeping City of Mhach",
+        "Category": 2
+    },
+    {
+        "Key": "b7787070-9358-406b-87af-a42de0a01783",
+        "Name": "Dun Scaith",
+        "Category": 2
+    },
+    {
+        "Key": "3f091682-e22e-4c8d-978b-7669ee56f328",
+        "Name": "The Royal City of Rabanastre",
+        "Category": 2
+    },
+    {
+        "Key": "beed413e-3150-401f-a438-36e886e762ee",
+        "Name": "The Ridorana Lighthouse",
+        "Category": 2
+    },
+    {
+        "Key": "4c878fb3-715c-4433-9bcb-d43c2d4629f9",
+        "Name": "The Orbonne Monastery",
+        "Category": 2
+    },
+    {
+        "Key": "dbc63c1c-0c30-41e0-81a5-b54bc98a200a",
+        "Name": "The Copied Factory",
+        "Category": 2
+    },
+    {
+        "Key": "9b47635c-7ed5-4135-91cb-32890f0bb897",
+        "Name": "The Puppets' Bunker",
+        "Category": 2
+    },
+    {
+        "Key": "7f8c8647-0371-4bdf-9cb1-8297694e8056",
+        "Name": "The Tower at Paradigm's",
+        "Category": 2
+    },
+    {
+        "Key": "6083e5d7-5f39-4715-af6a-a7eef958f0e6",
+        "Name": "Aglaia",
+        "Category": 2
+    },
+    {
+        "Key": "e826916d-4cd3-4abd-88f4-69c4dc375090",
+        "Name": "Euphrosyne",
+        "Category": 2
+    },
+    {
+        "Key": "4bc28d49-b9d7-4116-9de3-cfdff64f375b",
+        "Name": "Thaleia",
+        "Category": 2
+    },
+    {
+        "Key": "f8b10fff-5091-4e9b-b2a5-fde90decfcb7",
+        "Name": "Alexander - The Fist of the Father",
+        "Category": 2
+    },
+    {
+        "Key": "eac20ee2-a706-41fc-8bd2-92dfc57ed908",
+        "Name": "Alexander - The Cuff of the Father",
+        "Category": 2
+    },
+    {
+        "Key": "48fea0be-1bf1-4efc-9abd-7148fbbaa219",
+        "Name": "Alexander - The Arm of the Father",
+        "Category": 2
+    },
+    {
+        "Key": "8ca9b0dc-fa59-4010-8788-4b9ef8027a26",
+        "Name": "Alexander - The Burden of the Father",
+        "Category": 2
+    },
+    {
+        "Key": "392d938b-ba11-4060-af79-b7a11ba59345",
+        "Name": "Alexander - The Fist of the Son",
+        "Category": 2
+    },
+    {
+        "Key": "e0aa03b3-97e3-42bd-aff7-81647538d9f5",
+        "Name": "Alexander - The Cuff of the Son",
+        "Category": 2
+    },
+    {
+        "Key": "4b8e886a-1813-4658-86d6-e442290f89f4",
+        "Name": "Alexander - The Arm of the Son",
+        "Category": 2
+    },
+    {
+        "Key": "debfa7af-3dcb-4f97-8e41-b564922625f2",
+        "Name": "Alexander - The Burden of the Son",
+        "Category": 2
+    },
+    {
+        "Key": "8cbcd58c-cb26-40f6-9466-026db0c552c1",
+        "Name": "Alexander - The Eyes of the Creator",
+        "Category": 2
+    },
+    {
+        "Key": "1ac90dbe-5808-4a11-a691-9c4989ee5528",
+        "Name": "Alexander - The Breath of the Creator",
+        "Category": 2
+    },
+    {
+        "Key": "e4151db0-5a3e-4d4d-9429-4a0712cfd382",
+        "Name": "Alexander - The Heart of the Creator",
+        "Category": 2
+    },
+    {
+        "Key": "ecaac7d0-602d-4869-89f2-745339dedd84",
+        "Name": "Alexander - The Soul of the Creator",
+        "Category": 2
+    },
+    {
+        "Key": "807b1fb2-53b0-48f1-a5b4-1ef06141d28a",
+        "Name": "Deltascape V1.0",
+        "Category": 2
+    },
+    {
+        "Key": "7ee60cea-e7a4-432e-8ba5-718a880b0b24",
+        "Name": "Deltascape V2.0",
+        "Category": 2
+    },
+    {
+        "Key": "0868407e-9d80-4ac4-9918-fa17e6129f79",
+        "Name": "Deltascape V3.0",
+        "Category": 2
+    },
+    {
+        "Key": "67655ad4-8a91-44ec-9656-2ca88ea25667",
+        "Name": "Deltascape V4.0",
+        "Category": 2
+    },
+    {
+        "Key": "2c903a3c-249b-4984-a9f8-0f1c7aa5d125",
+        "Name": "Sigmascape V1.0",
+        "Category": 2
+    },
+    {
+        "Key": "2850e367-1449-472e-ba79-4f3ec901dc4f",
+        "Name": "Sigmascape V2.0",
+        "Category": 2
+    },
+    {
+        "Key": "edb16ab7-1dea-4135-9b29-64f87508398c",
+        "Name": "Sigmascape V3.0",
+        "Category": 2
+    },
+    {
+        "Key": "7446716e-0589-4271-af4a-3b4f7599cbed",
+        "Name": "Sigmascape V4.0",
+        "Category": 2
+    },
+    {
+        "Key": "c314f97a-76c6-4879-a8c8-8f289e2d8f5d",
+        "Name": "Alphascape V1.0",
+        "Category": 2
+    },
+    {
+        "Key": "8f74b6fd-330c-48d5-9a88-ae614a9e9981",
+        "Name": "Alphascape V2.0",
+        "Category": 2
+    },
+    {
+        "Key": "bf37012d-b14c-458a-a57f-d33ee638fb56",
+        "Name": "Alphascape V3.0",
+        "Category": 2
+    },
+    {
+        "Key": "5f0230d3-f2d6-422d-a687-9d9eeac1fee7",
+        "Name": "Alphascape V4.0",
+        "Category": 2
+    },
+    {
+        "Key": "f37f9f75-df22-4a74-85ce-ca62a187915a",
+        "Name": "Eden's Gate: Resurrection",
+        "Category": 2
+    },
+    {
+        "Key": "b6f828e1-94df-477a-a9a5-1944159ac378",
+        "Name": "Eden's Gate Descent",
+        "Category": 2
+    },
+    {
+        "Key": "e760429e-edb6-4b05-a8aa-be84df4528b5",
+        "Name": "Eden's Gate Inundation",
+        "Category": 2
+    },
+    {
+        "Key": "9082eed6-b4d9-4859-96b9-475bae7c1d1e",
+        "Name": "Eden's Gate Sepulture",
+        "Category": 2
+    },
+    {
+        "Key": "828884e5-17c9-4e96-b526-edb468571696",
+        "Name": "Eden's Verse Fulmination",
+        "Category": 2
+    },
+    {
+        "Key": "84fbf886-b924-4a27-8d2d-7e4d660109ff",
+        "Name": "Eden's Verse Furor",
+        "Category": 2
+    },
+    {
+        "Key": "e402d2ec-945d-4c58-bf07-5e22c283809e",
+        "Name": "Eden's Verse Iconoclasm",
+        "Category": 2
+    },
+    {
+        "Key": "996c3458-80ed-4a2e-a8f3-db6e42c10117",
+        "Name": "Eden's Verse Refulgence",
+        "Category": 2
+    },
+    {
+        "Key": "34840171-9c6f-4e0c-9774-882af828a4b0",
+        "Name": "Eden's Promise Umbra",
+        "Category": 2
+    },
+    {
+        "Key": "49ab7693-4969-44ed-a11a-8cec1f4fcbee",
+        "Name": "Eden's Promise Litany",
+        "Category": 2
+    },
+    {
+        "Key": "c6fe4c6a-a613-450e-8aa2-65f57443b1ae",
+        "Name": "Eden's Promise Anamorphosis",
+        "Category": 2
+    },
+    {
+        "Key": "7011ee31-fe32-464e-bfb7-d1fa852ab64e",
+        "Name": "Eden's Promise Eternity",
+        "Category": 2
+    },
+    {
+        "Key": "cdb3f740-56fc-4fb4-8a30-fff9b840fdf8",
+        "Name": "Asphodelos The First Circle",
+        "Category": 2
+    },
+    {
+        "Key": "fdd36edc-5fcf-47a4-9fdd-27ab85ac4640",
+        "Name": "Asphodelos The Second Circle",
+        "Category": 2
+    },
+    {
+        "Key": "9ab037a7-05a7-4f77-8474-5e754fa65d2a",
+        "Name": "Asphodelos The Third Circle",
+        "Category": 2
+    },
+    {
+        "Key": "84680eba-483c-442a-bbdb-b65f04eb1f30",
+        "Name": "Asphodelos The Fourth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "3a2e7589-fea1-4816-825c-35768fad380b",
+        "Name": "Abyssos The Fifth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "081dc177-a11c-4b43-8581-17aad14f9c2d",
+        "Name": "Abyssos The Sixth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "4344c8dd-f64d-4c49-8d24-37fe652091b8",
+        "Name": "Abyssos The Seventh Circle",
+        "Category": 2
+    },
+    {
+        "Key": "28016367-feef-42f3-b1fe-c85b0073c203",
+        "Name": "Abyssos The Eighth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "50bc5d13-d337-4ec9-b399-84295f6031f3",
+        "Name": "Anabaseios The Ninth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "e4aba8ec-a1c3-4be6-a787-bb85df90bbbd",
+        "Name": "Anabaseios The Tenth Circle",
+        "Category": 2
+    },
+    {
+        "Key": "39893901-3165-4746-98d9-1d23eaed19e0",
+        "Name": "Anabaseios The Eleventh",
+        "Category": 2
+    },
+    {
+        "Key": "dbfc8747-452e-4892-8eed-2e35560f8370",
+        "Name": "Anabaseios The Twelfth",
+        "Category": 2
+    },
+    {
+        "Key": "74dfa475-f100-4ddf-a557-067eba49ed6d",
+        "Name": "The Binding Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Key": "fb04a9a6-272a-43f2-abfe-3069416d5bba",
+        "Name": "The Binding Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Key": "a03a636f-172b-44a2-86a6-608ec363317a",
+        "Name": "The Binding Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Key": "171026c2-053d-4d2b-971a-9d68c196d190",
+        "Name": "The Binding Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Key": "a345e099-75de-4f9b-8912-461cd265830f",
+        "Name": "The Binding Coil of Bahamut - Turn 5",
+        "Category": 3
+    },
+    {
+        "Key": "9986f1c2-f100-4455-96ff-508d787f415d",
+        "Name": "The Second Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Key": "86705b95-bbc5-4a81-8610-63869354c2b6",
+        "Name": "The Second Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Key": "e68a0c60-4d6e-422c-9de5-20a0555ca2ca",
+        "Name": "The Second Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Key": "d1515020-7113-4670-83cd-aa072cda6250",
+        "Name": "The Second Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Key": "71ccd978-2040-4ce4-a252-8d0cedd4c8de",
+        "Name": "The Final Coil of Bahamut - Turn 1",
+        "Category": 3
+    },
+    {
+        "Key": "196356e0-6eff-4dbd-a3d5-988ce7fdddb1",
+        "Name": "The Final Coil of Bahamut - Turn 2",
+        "Category": 3
+    },
+    {
+        "Key": "2d932005-9145-4b63-9d32-ae319a406003",
+        "Name": "The Final Coil of Bahamut - Turn 3",
+        "Category": 3
+    },
+    {
+        "Key": "44a57d6f-c014-4e5f-8165-7103e148c85a",
+        "Name": "The Final Coil of Bahamut - Turn 4",
+        "Category": 3
+    },
+    {
+        "Key": "a5a50180-93b5-4025-a87a-227729648ea6",
+        "Name": "The Limitless Blue (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "b129b661-f5b8-438a-a478-b8d853c83258",
+        "Name": "Thok ast Thok (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "defa36ba-b8d1-4ff9-946e-3babcefc11b0",
+        "Name": "The Minstrel's Ballad Thordan's Reign",
+        "Category": 3
+    },
+    {
+        "Key": "b924d373-1548-4af7-875a-db776df8569a",
+        "Name": "Containment Bay S1T7 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "c88ab1af-c512-40cb-97bc-cc39b2c53b5a",
+        "Name": "The Minstrel's Ballad Nidhogg's Rage",
+        "Category": 3
+    },
+    {
+        "Key": "a725e1bf-4678-4736-b9f9-780a3cc09292",
+        "Name": "Containment Bay P1T6 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "25df7b95-ef94-4822-93ad-f0197caca89b",
+        "Name": "Containment Bay Z1T9 (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "d69368ce-0f21-4b1a-8772-5bdb84e002e6",
+        "Name": "The Pool of Tribute (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "f54b5be5-0ccf-413e-8510-d4b144eca44a",
+        "Name": "Emanation (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "97a3ecb1-c5aa-4b56-9e71-eeebda0d6fd3",
+        "Name": "The Jade Stoa (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "dae56499-f4e9-433b-ab52-796cc69a552f",
+        "Name": "The Minstrel's Ballad Tsukuyomi's Pain",
+        "Category": 3
+    },
+    {
+        "Key": "2aa06427-118c-4c3f-a1e4-efe7c4ab2fdc",
+        "Name": "Hells' Kier (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "01d3038c-01eb-48d5-87a8-18ea2c797859",
+        "Name": "The Great Hunt (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "8d9566ac-68a9-4998-9576-cf334f131c4e",
+        "Name": "The Wreath of Snakes (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "e8955c42-b1d0-474c-9c4d-df8d458193ec",
+        "Name": "The Dancing Plague (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "914f765f-6a90-4e9c-a0c2-bce938a0f38d",
+        "Name": "The Crown of the Immaculate (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "91a40173-8317-49fe-9295-521eb04e1f15",
+        "Name": "The Minstrel's Ballad Hades's Elegy",
+        "Category": 3
+    },
+    {
+        "Key": "598e6f9b-f609-45d1-bfc1-9a27cbfda40c",
+        "Name": "Cinder Drift (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "54ace376-0171-4834-9c1a-8392bb244fa5",
+        "Name": "Memoria Misera (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "dc889be5-cf5b-4266-8b6a-2e7be1ec31d0",
+        "Name": "The Seat of Sacrifice (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "c7b364b8-021b-46e0-af00-438900ba4d7d",
+        "Name": "Castrum Marinum (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "bc49e40f-5123-4932-9ec6-fb92242fc43b",
+        "Name": "The Cloud Deck (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "82474bf9-7638-4bc7-8822-6e484a6b8816",
+        "Name": "The Minstrel's Ballad- Zodiark's Fall",
+        "Category": 3
+    },
+    {
+        "Key": "4f2b1cfe-d246-4388-ae1d-8a42013d3be1",
+        "Name": "The Minstrel's Ballad- Hydaelyn's Call",
+        "Category": 3
+    },
+    {
+        "Key": "4c8ee1f5-b4ad-4934-a823-a0b2ac0ffdb3",
+        "Name": "The Minstrel's Ballad: Endsinger's Aria",
+        "Category": 3
+    },
+    {
+        "Key": "bca424eb-a675-42f1-bd4a-f88680cd9597",
+        "Name": "Storm's Crown (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "00bc2782-f87e-4b35-9809-f3bec15ad4a6",
+        "Name": "Mount Ordeals (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "2ed10852-4128-4e35-98f6-dee318bfc37c",
+        "Name": "The Voidcast Dais (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "4f7ea917-a604-429b-88f2-40266a544dbc",
+        "Name": "The Abyssal Fracture (Extreme)",
+        "Category": 3
+    },
+    {
+        "Key": "89dfc537-de0a-4ee2-9ec5-81528afc6e8e",
+        "Name": "Treasure Hunt",
+        "Category": 4
+    },
+    {
+        "Key": "298acb87-4e23-4140-b1a8-ad9804d4f4d6",
+        "Name": "Palace of the Dead",
+        "Category": 4
+    },
+    {
+        "Key": "8fd95270-0f48-4907-9b53-98ee71f0d834",
+        "Name": "Frontline",
+        "Category": 4
+    },
+    {
+        "Key": "e72c614a-b414-4d84-bcd0-465461245f08",
+        "Name": "Astragalos",
+        "Category": 4
+    },
+    {
+        "Key": "98d2ac9b-d2ea-4a9d-ad48-92287b7d1ab6",
+        "Name": "Hidden Gorge",
+        "Category": 4
+    },
+    {
+        "Key": "de0acfe3-3fc3-4980-9772-907879012289",
+        "Name": "Crystalline Conflict",
+        "Category": 4
+    }
+]
