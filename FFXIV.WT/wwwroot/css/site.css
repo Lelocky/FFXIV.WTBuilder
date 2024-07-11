@@ -45,3 +45,25 @@
     margin-top:100px;
     color:gray;
 }
+
+.duty-category-list
+{
+    margin-bottom:20px;
+}
+
+.column-title {
+    margin-bottom:15px;
+}
+
+.filter-option {
+    margin-bottom:30px;
+}
+
+.category-filter-option {
+    padding-left: 0;
+}
+
+.duty-overview-steps
+{
+    margin-top:43px;
+}

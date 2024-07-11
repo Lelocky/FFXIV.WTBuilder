@@ -1,68 +1,74 @@
 ﻿@page "/Party/{Key:guid}/Add"
 @inject WTService WTService
 @inject NavigationManager NavigationManager
+
 <div class="content">
     <div class="container">
-        @if (Party != null)
-        {
-            <div class="row duty-list">
-                <div class="col-12">
-                    <h4>Dungeons</h4>
+        <div class="row">
+            <div class="col-2">
+                <h3 class="column-title"><i class="bi bi-filter-circle"></i> Filter</h3>
+                @*                 <div class="filter-option">
+                <h5>Search</h5>
+                </div> *@
+                <div class="filter-option">
+                    <h5>Category</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item category-filter-option">
+                            <input type="checkbox" @onchange="() => CategoryFilterCheckedChanged(1)" checked="@IsCategoryChecked(1)"> Dungeons
+                        </li>
+                        <li class="list-group-item category-filter-option">
+                            <input type="checkbox" @onchange="() => CategoryFilterCheckedChanged(2)" checked="@IsCategoryChecked(2)"> Raids
+                        </li>
+                        <li class="list-group-item category-filter-option">
+                            <input type="checkbox" @onchange="() => CategoryFilterCheckedChanged(3)" checked="@IsCategoryChecked(3)"> Trials
+                        </li>
+                        <li class="list-group-item category-filter-option">
+                            <input type="checkbox" @onchange="() => CategoryFilterCheckedChanged(4)" checked="@IsCategoryChecked(4)"> Others
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-12">
-                    <div class="list-group">
-                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 1))
-                        {
-                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
-                        }
+            </div>
+            <div class="col-6 text-center">
+                <h3 class="column-title"><i class="bi bi-book"></i> Duties</h3>
+                @if (Party != null)
+                {
+                    @foreach (var categoryNumber in DisplayFilteredCategories())
+                    {
+                        <div class="row duty-list text-start duty-category-list">
+                            <div class="col-12">
+                                <h4>@((DutyCategory)categoryNumber)</h4>
+                            </div>
+                            <div class="col-12">
+                                <div class="list-group">
+                                    @foreach (var item in AllDuties.Values.Where(x => x.Category == categoryNumber))
+                                    {
+                                        <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <div class="col-4 text-center">
+                <h3 class="duty-overview-steps">Step <i class="bi bi-1-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Select your duties</h5>
+                        <p class="card-text">Click on a duty to add it to party.</p>
+                    </div>
+                </div>
+                <h2><i class="bi bi-arrow-down"></i></h2>
+                <h3>Step <i class="bi bi-2-circle"></i></h3>
+                <div class="card step-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Done?</h5>
+                        <p class="card-text">Click the button below to go back to the Duty overview.</p>
+                        <button class="btn btn-primary" @onclick="Done"><i class="bi bi-check-circle"></i> Done</button>
                     </div>
                 </div>
             </div>
-
-            <div class="row duty-list">
-                <div class="col-12">
-                    <h4>Raids</h4>
-                </div>
-                <div class="col-12">
-                    <div class="list-group">
-                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 2))
-                        {
-                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
-                        }
-                    </div>
-                </div>
-            </div>
-
-            <div class="row duty-list">
-                <div class="col-12">
-                    <h4>Trails</h4>
-                </div>
-                <div class="col-12">
-                    <div class="list-group">
-                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 3))
-                        {
-                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
-                        }
-                    </div>
-                </div>
-            </div>
-
-            <div class="row duty-list">
-                <div class="col-12">
-                    <h4>Others</h4>
-                </div>
-                <div class="col-12">
-                    <div class="list-group">
-                        @foreach (var item in AllDuties.Values.Where(x => x.Category == 4))
-                        {
-                            <button type="button" @onclick="(() => Add(item.Key))" class="list-group-item list-group-item-action">@item.DutyName</button>
-                        }
-                    </div>
-                </div>
-            </div>
-
-            <button class="btn btn-primary" @onclick="Done">Done</button>
-        }
+        </div>
     </div>
 </div>
 
@@ -72,6 +78,7 @@
     public Guid Key { get; set; }
     private Party Party { get; set; }
     private Dictionary<Guid, Duty> AllDuties { get; set; }
+    private List<int> CheckCategoryFilter = new();
 
     protected override void OnInitialized()
     {
@@ -90,9 +97,42 @@
         StateHasChanged();
     }
 
+    public bool IsCategoryChecked(int category)
+    {
+        return CheckCategoryFilter.Contains(category);
+    }
 
     public void Done()
     {
         NavigationManager.NavigateTo($"/Party/{Key}");
+    }
+
+    private void CategoryFilterCheckedChanged(int category)
+    {
+        if (CheckCategoryFilter.Contains(category))
+        {
+            CheckCategoryFilter.Remove(category);
+        }
+        else
+        {
+            CheckCategoryFilter.Add(category);
+        }
+    }
+
+    private List<int> DisplayFilteredCategories()
+    {
+        if (CheckCategoryFilter.Any())
+        {
+            return CheckCategoryFilter;
+        }
+
+        var categoryList = new List<int>();
+
+        @foreach (DutyCategory category in (DutyCategory[])Enum.GetValues(typeof(DutyCategory)))
+        {
+            categoryList.Add((int)category);
+        }
+
+        return categoryList;
     }
 }
